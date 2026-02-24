@@ -1,17 +1,190 @@
 <!DOCTYPE html>
-<html lang="ja">
-<meta charset="UTF-8">
-<title>Dreamtrail</title>
-<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+  <!-- ===== Meta / SEO ===== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Masa SHIMADA — Android Engineer specializing in Kotlin, Jetpack Compose, and mobile architecture." />
+  <meta name="keywords" content="Android Engineer, Kotlin, Jetpack Compose, MVVM, Firebase, Mobile Developer" />
+  <meta name="author" content="Masa SHIMADA" />
+  <meta property="og:title" content="Masa SHIMADA | Android Engineer" />
+  <meta property="og:description" content="Android Engineer specializing in Kotlin, Jetpack Compose, and mobile architecture." />
+  <meta property="og:type" content="website" />
+  <title>Sanari</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
 
 <body>
-    <section class="wrapper">
-        <div class="container">
-            <div class="content">
-                <h2 class="heading">Dreamtrail</h2>
-            </div>
-        </div>
-    </section>
-</body>
 
+  <!-- =====================================================
+       Navigation
+  ===================================================== -->
+  <nav>
+    <span class="nav-logo">Sn.</span>
+    <ul class="nav-links">
+      <!-- <li><a href="#about">About</a></li> -->
+      <li><a href="#skills">Skills</a></li>
+      <!-- <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li> -->
+    </ul>
+  </nav>
+
+  <!-- =====================================================
+       Hero
+  ===================================================== -->
+  <section id="hero">
+    <div class="container">
+      <h1 class="hero-name">Sanari</h1>
+
+      <p class="hero-desc">
+        I design and build robust mobile applications using Kotlin, with a strong focus on clean architecture and system design.
+      </p>
+
+      <a
+        href="https://github.com/sanariris"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+      >
+        <!-- GitHub SVG icon -->
+        <svg class="icon-github" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       About
+  ===================================================== -->
+  <!-- <section id="about">
+    <div class="container">
+      <p class="section-label">About</p>
+      <p>
+        I'm an Android Engineer passionate about crafting intuitive, high-quality mobile applications.
+        With a focus on clean architecture and modern Android development practices,
+        I turn complex requirements into elegant, maintainable code.
+      </p>
+      <p>
+        I believe great software is built on solid fundamentals — thoughtful architecture,
+        rigorous testing, and a deep respect for the end user. When I'm not writing code,
+        I'm exploring the latest in mobile tech and open-source tooling.
+      </p>
+    </div>
+  </section> -->
+
+  <!-- =====================================================
+       Skills
+  ===================================================== -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Skills</p>
+      <div class="skills-grid">
+        <!-- 各スキルチップ -->
+        <div class="skill-chip"><span class="skill-dot"></span>Kotlin</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Jetpack Compose</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Firebase</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Application Design</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================
+       Projects
+  ===================================================== -->
+  <!-- <section id="projects">
+    <div class="container">
+      <p class="section-label">Projects</p>
+      <div class="projects-grid">
+
+        Project 1
+        <div class="project-card">
+          <h3>Pocket Tracker</h3>
+          <p>
+            A personal finance app built with Jetpack Compose and MVVM architecture.
+            Features real-time sync via Firebase, biometric authentication,
+            and an intuitive UI designed for daily habit building.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Compose</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Biometrics</span>
+          </div>
+          <a
+            href="https://github.com/sanariris"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline btn-card"
+          >
+            <svg class="icon-github" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </div> -->
+
+        <!-- Project 2 -->
+        <!-- <div class="project-card">
+          <h3>SecureVault</h3>
+          <p>
+            An end-to-end encrypted note-taking app focused on privacy and security.
+            Implements AES-256 encryption, secure key storage with Android Keystore,
+            and a fully offline-first experience.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Cryptography</span>
+            <span class="tag">Room</span>
+            <span class="tag">Keystore</span>
+          </div>
+          <a
+            href="https://github.com/sanariris"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline btn-card"
+          >
+            <svg class="icon-github" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+
+  <!-- =====================================================
+       Contact
+  ===================================================== -->
+  <!-- <section id="contact">
+    <div class="container">
+      <p class="section-label">Contact</p>
+      <h2>Let's build something together.</h2>
+      <p>Open to new opportunities, collaborations, and interesting conversations.</p>
+      <a
+        href="https://github.com/sanariris"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+      >
+        <svg class="icon-github" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        github.com/sanariris
+      </a>
+    </div>
+  </section> -->
+
+  <!-- =====================================================
+       Footer
+  ===================================================== -->
+  <footer>
+    <p>&copy; 2026 Masanari Shimada. Built with HTML &amp; CSS.</p>
+  </footer>
+
+</body>
 </html>
